@@ -2634,3 +2634,7 @@
   registry:
     biotools: hpo
   url: https://hpo.jax.org/app/
+- description: A free and open source electronic lab notebook.
+  id: elabftw
+  name: eLabFTW
+  url: https://www.elabftw.net/
