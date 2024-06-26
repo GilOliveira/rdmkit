@@ -87,7 +87,6 @@
   name: Bio-Formats
   registry:
     biotools: bio-formats
-    tess: Bio-Formats
   url: https://www.openmicroscopy.org/bio-formats/
 - description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure compatible with the OME-NGFF specification.
   id: bioformats2raw
@@ -264,7 +263,6 @@
   name: Bio-Formats
   registry:
     biotools: bio-formats
-    tess: Bio-Formats
   url: https://www.openmicroscopy.org/bio-formats/
 - description: Platform designed to efficiently generate bioactive conformers and speed up the drug discovery process.
   id: bioactive-conformational-ensemble
@@ -1015,9 +1013,9 @@
 - description: A repository of MIAME-compliant genomics data from arrays and high-throughput sequencing
   id: gene-expression-omnibus
   name: Gene Expression Omnibus (GEO)
-  url: https://www.ncbi.nlm.nih.gov/geo/
   registry:
     fairsharing: 5hc8vt
+  url: https://www.ncbi.nlm.nih.gov/geo/
 - description: GHS (Globally Harmonized System of Classification and Labelling of Chemicals) classification was developed by the United Nations in an attempt to align standards and chemical regulations in different countries. GHS includes criteria for the classification of health, physical and environmental hazards, and what information should be included on labels of hazardous chemicals and safety data sheets.
   id: ghs-classification
   name: GHS Classification
@@ -1299,6 +1297,8 @@
 - description: Minimum Information About Disorder Experiments (MIADE) standard
   id: miade
   name: MIADE
+  registry:
+    tess: MIADE
   url: https://www.psidev.info/intrinsically-disordered-proteins-workgroup
 - description: Minimum Information About a Plant Phenotyping Experiment
   id: miappe
@@ -2634,7 +2634,28 @@
   registry:
     biotools: hpo
   url: https://hpo.jax.org/app/
+- description: MinSCe is a minimum set of metadata categories used to describe a single-cell assay in sufficient detail to enable the analysis of transcriptomic data.
+  id: minsce
+  name: Minimum Information about a Single-Cell Experiment (minSCe)
+  registry:
+    fairsharing: 77c3d3
+  url: https://github.com/ebi-gene-expression-group/sc-metadata-fields
+- description: Annotare is a tool for submitting functional genomics data to the ArrayExpress collection in BioStudies.
+  id: annotare
+  name: Annotare
+  registry:
+    tess: Annotare
+  url: https://www.ebi.ac.uk/fg/annotare/
+- description: Free and open-source reference management software to manage bibliographic data and related research materials.
+  id: zotero
+  name: Zotero
+  url: https://www.zotero.org/
+- description: A plugin for Zotero and Juris-M that makes it easier to manage bibliographic data.
+  id: better-bibtex
+  name: Better BibTeX (BBT)
+  url: https://retorque.re/zotero-better-bibtex/
 - description: A free and open source electronic lab notebook.
   id: elabftw
   name: eLabFTW
   url: https://www.elabftw.net/
+
